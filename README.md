@@ -98,28 +98,7 @@ Runs on http://localhost:5173
 
 Go to: http://localhost:5173
 
-## Project Structure
 
-task-decomposition-agent/
-├── api.py                    ← FastAPI server
-├── requirements.txt          ← Python dependencies
-├── src/
-│   ├── schemas.py           ← Pydantic data models
-│   ├── tools.py             ← Tavily search + file operations
-│   ├── planner.py           ← Task decomposition agent
-│   ├── executor.py          ← Task execution agent
-│   ├── graph.py             ← LangGraph orchestration
-│   └── main.py              ← CLI entry point
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx          ← Main React component
-│   │   ├── App.css          ← Styling
-│   │   └── index.js         ← React entry
-│   ├── package.json
-│   └── vite.config.js
-└── README.md
-
-## Architecture
 
 ### Planner Agent
 
